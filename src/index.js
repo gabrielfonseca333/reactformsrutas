@@ -7,17 +7,16 @@ import Home from './components/Home';
 import Cine from './components/Cine';
 import Musica from './components/Musica';
 import Router from './components/Router';
+import MenuRutas from './components/MenuRutas';
+import FormSimple from './components/FormSimple';
 
 //por mi
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1>INDEX PRINCIPAL</h1>
-    <hr/>
-    <Router />
-    <hr/>
-    <h2>Pie de Pagina</h2>
+    <Router/>
+    <MenuRutas/>
   </React.StrictMode>
 );
 
